@@ -51,10 +51,15 @@
           height: 40px;
 
           appearance: none;
-          border: 3px solid #52b64e;
+          border: 2px solid #52b64e;
           border-radius: 3px;
 
           font-weight: 600;
+        }
+
+        button:hover {
+          border: 3px solid #52b64e;
+          transform: scale(1.01);
         }
       }
     }

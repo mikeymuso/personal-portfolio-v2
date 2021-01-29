@@ -1067,9 +1067,15 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border: 3px solid #52b64e;
+  border: 2px solid #52b64e;
   border-radius: 3px;
   font-weight: 600;
+}
+
+.contact-section .main-grid .form-container form button:hover {
+  border: 3px solid #52b64e;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .contact-section .main-grid .header-container {
