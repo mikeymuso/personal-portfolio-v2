@@ -1,0 +1,137 @@
+//////////////////////////////////////////
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+
+//////////////////////////////////////////
+// VARIABLES
+
+$header-font: 'Exo', sans-serif;
+$body-font: 'Poppins', sans-serif;
+
+$screen-small: 576px;
+$screen-medium: 768px;
+$screen-large: 992px;
+$screen-xlarge: 1200px;
+
+$background-gradient: linear-gradient(to right, #2a033c, black);
+
+@mixin sm {
+  @media (min-width: #{$screen-small}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-medium}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-large}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xlarge}) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: #{$screen-medium}) {
+    @content;
+  }
+}
+
+@mixin custom($screen) {
+  @media (min-width: $screen+'px') {
+    @content;
+  }
+}
+
+//////////////////////////////////////////
+// SCSS IMPORTS
+
+@import 'Website';
+@import 'HeroSection';
+@import 'SubHero';
+@import 'SkillsSection';
+@import 'SmallProjectsSection';
+@import 'About';
+@import 'Contact';
+
+//////////////////////////////////////////
+// GLOBAL RESET
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+abbr,
+acronym,
+address,
+em,
+img,
+strong,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  height: 100%;
+}
+
+main {
+  position: relative;
+  height: 100%;
+}

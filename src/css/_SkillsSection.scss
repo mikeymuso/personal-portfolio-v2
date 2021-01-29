@@ -1,0 +1,181 @@
+.skills-section {
+  height: 90vh;
+  font-family: $body-font;
+
+  @include custom(500) {
+    height: 50vh;
+  }
+
+  .main-skills-grid {
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    height: 100%;
+
+    .header-container {
+      position: relative;
+      padding: 0 60px;
+      margin-top: 20px;
+      height: auto;
+
+      @include custom(500) {
+        height: 60px;
+        padding: 0px 22px;
+      }
+
+      @include md {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px 60px;
+      }
+
+      .sub-header {
+        font-size: 0.8em;
+        margin: 0;
+      }
+
+      .main-header {
+        font-size: 1.4em;
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+
+    .inner-skills-grid {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin-top: 20px;
+
+      @include custom(500) {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 48px;
+      }
+
+      @include md {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+      }
+
+      .skill-cell {
+        position: relative;
+        width: 180px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        align-items: bottom;
+        padding: 0 20px;
+
+        background-size: 130px;
+        background-repeat: no-repeat;
+        background-position: 40px 0;
+        height: 190px;
+
+        @include custom(500) {
+          width: 160px;
+          height: 200px;
+          padding: 0 0;
+          margin: 0;
+          background-size: 100px;
+        }
+
+        @include sm {
+          width: 200px;
+          background-size: 120px;
+        }
+
+        @include md {
+          width: 310px;
+          background-size: 140px;
+        }
+
+        @include lg {
+          background-size: 170px;
+        }
+
+        .cell-text {
+          position: absolute;
+          top: 80px;
+
+          @include custom(500) {
+            padding: 0 20px;
+            top: 70px;
+          }
+
+          @include sm {
+            top: 90px;
+          }
+
+          @include lg {
+            top: 110px;
+          }
+        }
+
+        .title {
+          font-weight: bold;
+        }
+
+        .blurb {
+          font-size: 0.7em;
+        }
+      }
+
+      .one {
+        background-image: url('../images/skills-1.svg');
+      }
+      .two {
+        background-image: url('../images/skills-2.svg');
+      }
+      .three {
+        background-image: url('../images/skills-3.svg');
+      }
+    }
+
+    .footer-container {
+      height: 40px;
+      display: grid;
+      grid-template-columns: 30% auto;
+      place-content: center;
+
+      @include custom(500) {
+        margin-top: -15px;
+      }
+
+      @include sm {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+
+        @include sm {
+          justify-content: flex-end;
+          padding-right: 25px;
+          font-size: 0.9em;
+        }
+      }
+
+      .icons {
+        display: flex;
+        height: 20px;
+
+        @include custom(500) {
+          height: 25px;
+        }
+
+        @include sm {
+          height: 28px;
+        }
+
+        img {
+          display: block;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+}

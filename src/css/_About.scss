@@ -1,0 +1,24 @@
+.about-section {
+  display: block;
+  overflow: auto;
+  background: $background-gradient;
+  padding: 40px;
+  color: white;
+  text-align: center;
+
+  .about-header {
+    font-family: $header-font;
+    padding: 20px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .blurb {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: $body-font;
+    font-size: 0.8em;
+    font-weight: 200;
+    line-height: 26px;
+  }
+}

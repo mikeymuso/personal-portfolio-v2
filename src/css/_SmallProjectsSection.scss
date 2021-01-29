@@ -1,0 +1,62 @@
+@import 'ProjectCard';
+
+.small-project-section {
+  font-family: $header-font;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  background-color: #f8f0ed;
+  padding-bottom: 30px;
+
+  @include custom(500) {
+    padding-bottom: 30px;
+  }
+
+  @include sm {
+    padding-bottom: 5%;
+  }
+
+  .main-grid {
+    display: grid;
+    margin-top: 60px;
+    grid-template-rows: 8% auto;
+
+    @include custom(500) {
+      grid-template-rows: 8% auto;
+    }
+    @include sm {
+      grid-template-rows: 8% auto;
+    }
+
+    @include md {
+      grid-template-rows: 26% auto;
+    }
+
+    .header {
+      font-size: 1.4em;
+      text-align: center;
+      padding: 20px 0 0 0;
+
+      @include sm {
+        font-size: 1.8em;
+      }
+    }
+
+    .inner-grid {
+      display: grid;
+      width: 100%;
+      grid-template-rows: 1fr 1fr 1fr;
+      place-content: center;
+
+      @include custom(700) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      }
+
+      @include md {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
