@@ -21,7 +21,6 @@
 
   .main-grid {
     display: grid;
-    margin-top: 60px;
     grid-template-rows: 8% auto;
 
     @include custom(500) {

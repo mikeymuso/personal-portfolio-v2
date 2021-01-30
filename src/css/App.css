@@ -122,7 +122,6 @@
   padding: 20px 8px 0px 8px;
   font-family: "Poppins", sans-serif;
   font-size: 100%;
-  overflow: scroll;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.1s;
@@ -160,6 +159,7 @@
 .website-section .inner .info .info--inner .info--subtitle,
 .website-section .inner .info .info--inner .info--blurb {
   font-size: 0.4em;
+  overflow: scroll;
 }
 
 @media (min-width: 500px) {
@@ -1035,7 +1035,6 @@
 .small-project-section .main-grid {
   display: -ms-grid;
   display: grid;
-  margin-top: 60px;
   -ms-grid-rows: 8% auto;
       grid-template-rows: 8% auto;
 }
