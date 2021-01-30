@@ -15,8 +15,6 @@ I will be constantly adding and updating this project to reflect my ongoing prog
 
 ## Installation and Setup Instructions
 
-#### Example:
-
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
 Installation:
