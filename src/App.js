@@ -28,11 +28,6 @@ const App = () => {
     });
   };
 
-  const onFormSubmit = event => {
-    event.preventDefault();
-    window.alert('Your message has been sent. Thanks');
-  };
-
   return (
     <main>
       <Element name="top">
