@@ -120,7 +120,7 @@
   background: linear-gradient(to top, white, rgba(235, 235, 235, 0.6));
   height: 55%;
   width: 70%;
-  max-width: 350px;
+  max-width: 320px;
   padding: 20px 8px 0px 8px;
   font-family: "Poppins", sans-serif;
   font-size: 100%;
@@ -181,8 +181,16 @@
 @media (min-width: 768px) {
   .website-section .inner .info .info--inner .info--subtitle,
   .website-section .inner .info .info--inner .info--blurb {
-    font-size: 0.9em;
-    line-height: 2em;
+    font-size: 0.7em;
+    line-height: 1.7em;
+  }
+}
+
+@media (min-width: 992px) {
+  .website-section .inner .info .info--inner .info--subtitle,
+  .website-section .inner .info .info--inner .info--blurb {
+    font-size: 0.8em;
+    line-height: 1.8em;
   }
 }
 
@@ -207,6 +215,13 @@
 }
 
 @media (min-width: 768px) {
+  .website-section .inner .info .info--inner .info--title {
+    font-size: 1.3em;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 992px) {
   .website-section .inner .info .info--inner .info--title {
     font-size: 1.6em;
     line-height: 32px;
@@ -250,6 +265,55 @@
           transform: scale(1.2);
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.info--links {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 13px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .info--links {
+    top: 5%;
+    right: 5%;
+    height: 20px;
+  }
+}
+
+.info--links .github-icon,
+.info--links .live-preview-icon {
+  height: 100%;
+  width: 16px;
+}
+
+@media (min-width: 500px) {
+  .info--links .github-icon,
+  .info--links .live-preview-icon {
+    width: 17px;
+    margin: 0 2px;
+  }
+}
+
+.info--links .github-icon {
+  background: url("../images/github-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info--links .live-preview-icon {
+  background: url("../images/live-preview-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero-section {
@@ -810,7 +874,7 @@
   font-family: "Poppins", sans-serif;
   width: 80%;
   padding: 0 2%;
-  margin: 10px auto;
+  margin: 10px auto 40px auto;
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.2s;
@@ -899,6 +963,38 @@
           transform: scale(1.05);
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.links {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.links .github-icon,
+.links .live-preview-icon {
+  height: 55%;
+  width: 35px;
+}
+
+.links .github-icon {
+  background: url("../images/github-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.links .live-preview-icon {
+  background: url("../images/live-preview-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .small-project-section {
@@ -993,7 +1089,7 @@
   overflow: auto;
   background: -webkit-gradient(linear, left top, right top, from(#2a033c), to(black));
   background: linear-gradient(to right, #2a033c, black);
-  padding: 40px;
+  padding: 40px 40px 0 40px;
   color: white;
   text-align: center;
 }
@@ -1012,6 +1108,45 @@
   font-size: 0.8em;
   font-weight: 200;
   line-height: 26px;
+}
+
+.github-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  padding-top: 55px;
+}
+
+.github-link .text a {
+  color: white;
+  font-family: "Exo", sans-serif;
+}
+
+.github-link .github {
+  width: 30px;
+  height: 100%;
+}
+
+.github-link .github a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.github-link .github a .github-icon {
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  background: url("../images/github-icon-white.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .contact-section {

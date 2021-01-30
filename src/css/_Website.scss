@@ -96,7 +96,7 @@
       );
       height: 55%;
       width: 70%;
-      max-width: 350px;
+      max-width: 320px;
       padding: 20px 8px 0px 8px;
       font-family: $body-font;
       font-size: 100%;
@@ -137,8 +137,13 @@
           }
 
           @include md {
-            font-size: 0.9em;
-            line-height: 2em;
+            font-size: 0.7em;
+            line-height: 1.7em;
+          }
+
+          @include lg {
+            font-size: 0.8em;
+            line-height: 1.8em;
           }
         }
 
@@ -158,6 +163,11 @@
           }
 
           @include md {
+            font-size: 1.3em;
+            line-height: 30px;
+          }
+
+          @include lg {
             font-size: 1.6em;
             line-height: 32px;
           }
@@ -193,4 +203,47 @@
 .laptop:hover {
   transform: scale(1.2);
   transition: 0.2s;
+}
+
+.info--links {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  height: 13px;
+  width: auto;
+
+  display: flex;
+  justify-content: flex-end;
+
+  cursor: pointer;
+
+  @include custom(500) {
+    top: 5%;
+    right: 5%;
+    height: 20px;
+  }
+
+  .github-icon,
+  .live-preview-icon {
+    height: 100%;
+    width: 16px;
+
+    @include custom(500) {
+      width: 17px;
+      margin: 0 2px;
+    }
+  }
+
+  .github-icon {
+    background: url('../images/github-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .live-preview-icon {
+    background: url('../images/live-preview-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }

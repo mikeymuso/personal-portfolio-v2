@@ -13,8 +13,10 @@ const Websites = () => {
       subtitle: `- Let's dance`,
       title: 'JD Dance Custom Website',
       blurb:
-        'This site design aims to be elegant & fresh. It uses MongoDB to create a class booking system for users',
+        'This full-stack app uses MongoDB to create a class booking system for users. Users can sign in and sign up for classes and the teachers can access this info.',
       tech: '> React, MongoDB, Node, Sass',
+      github: '#',
+      live: '#',
     },
     {
       img: './images/pcotton-screenshot.png',
@@ -22,8 +24,10 @@ const Websites = () => {
       subtitle: `- Get snappy`,
       title: 'P Cotton Photography',
       blurb:
-        'An online gallery and selling portal for purchasing prints online. Implements the PayPal API for handling payment details.',
+        'An online gallery and selling portal for purchasing prints online. This app implements the PayPal API for handling payment details and creating orders',
       tech: '> React, Sass',
+      github: 'https://github.com/mikeymuso/pcotton-photography-react',
+      live: '#',
     },
   ];
 
@@ -49,6 +53,18 @@ const Websites = () => {
               <div className="info--title">{images[current].title}</div>
               <div className="info--blurb">{images[current].blurb}</div>
               <div className="info--tech">{images[current].tech}</div>
+              <div className="info--links">
+                <a
+                  href={images[current].github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="github-icon"></div>
+                </a>
+                <a href={images[current].live} target="_blank" rel="noreferrer">
+                  <div className="live-preview-icon"></div>
+                </a>
+              </div>
             </div>
           </div>
         </div>

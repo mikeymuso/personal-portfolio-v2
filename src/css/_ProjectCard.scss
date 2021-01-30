@@ -4,7 +4,7 @@
   font-family: $body-font;
   width: 80%;
   padding: 0 2%;
-  margin: 10px auto;
+  margin: 10px auto 40px auto;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   transition: 0.2s;
 
@@ -81,4 +81,34 @@
 .project-card:hover {
   transform: scale(1.05);
   transition: 0.2s;
+}
+
+.links {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+
+  height: 40px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  .github-icon,
+  .live-preview-icon {
+    height: 55%;
+    width: 35px;
+  }
+
+  .github-icon {
+    background: url('../images/github-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .live-preview-icon {
+    background: url('../images/live-preview-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }

@@ -7,7 +7,7 @@ const HeroSection = props => {
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
-      console.log(scrollPosition);
+      // console.log(scrollPosition);
 
       if (scrollPosition > 300) {
         toTopButton.current.style.display = 'block';

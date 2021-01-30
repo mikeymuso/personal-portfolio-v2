@@ -15,6 +15,8 @@ const SmallProjectSection = () => {
             svgImage="./images/drum-icon.svg"
             image="./images/drum-machine.png"
             alt="drum machine"
+            github="https://github.com/mikeymuso/drumMachine"
+            live="https://mikeymuso.github.io/drumMachine/"
           />
           <ProjectCard
             className="two"
@@ -23,6 +25,8 @@ const SmallProjectSection = () => {
             svgImage="./images/weather-icon.svg"
             image="./images/weather-api.png"
             alt="weather api"
+            github="https://github.com/mikeymuso/Weather-API"
+            live="https://mikeymuso.github.io/Weather-API/"
           />
           <ProjectCard
             className="three"
@@ -31,6 +35,8 @@ const SmallProjectSection = () => {
             svgImage="./images/note-icon.svg"
             image="./images/todo-app.png"
             alt="drum machine"
+            github="https://github.com/mikeymuso/tobedone"
+            live="https://mikeymuso.github.io/tobedone/"
           />
         </div>
       </div>

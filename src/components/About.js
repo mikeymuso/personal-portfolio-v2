@@ -24,6 +24,27 @@ const About = () => {
         <br />
         Please get in touch.
       </div>
+      <div className="github-link">
+        <div className="text">
+          <a
+            href="https://github.com/mikeymuso"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visit my Github repo
+          </a>
+        </div>
+
+        <div className="github">
+          <a
+            href="https://github.com/mikeymuso"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="github-icon"></div>
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
