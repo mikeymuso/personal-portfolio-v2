@@ -166,7 +166,7 @@
 .website-section .inner .info .info--inner .info--subtitle,
 .website-section .inner .info .info--inner .info--blurb {
   font-size: 0.4em;
-  overflow: scroll;
+  line-height: 1.5em;
 }
 
 @media (min-width: 500px) {

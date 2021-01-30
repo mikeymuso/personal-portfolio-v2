@@ -128,7 +128,9 @@
         .info--subtitle,
         .info--blurb {
           font-size: 0.4em;
-          overflow: scroll;
+          line-height: 1.5em;
+
+          // overflow: scroll;
 
           @include custom(500) {
             font-size: 0.5em;
