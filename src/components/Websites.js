@@ -27,7 +27,7 @@ const Websites = () => {
         'An online gallery and selling portal for purchasing prints online. This app implements the PayPal API for handling payment details and creating orders',
       tech: '> React, Sass',
       github: 'https://github.com/mikeymuso/pcotton-photography-react',
-      live: '#',
+      live: 'https://github.com/mikeymuso/pcotton-photography-react',
     },
   ];
 
