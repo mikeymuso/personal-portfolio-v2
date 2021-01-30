@@ -34,12 +34,21 @@
     height: 100%;
 
     .splide__slide img {
-      width: 140%;
+      // This is the value that determines the height of the slider
+      width: 170%;
       height: 100%;
       filter: brightness(75%) blur(5px);
 
       @include sm {
         width: 135%;
+      }
+
+      @include md {
+        width: 120%;
+      }
+
+      @include lg {
+        width: 110%;
       }
     }
   }
@@ -63,7 +72,7 @@
       position: relative;
       width: 80%;
       max-width: 500px;
-      margin: 33% auto;
+      margin: auto;
       transition: 0.2s;
 
       .laptop--img {
@@ -86,13 +95,13 @@
 
     .info {
       position: relative;
-      margin: 15% auto;
+      margin: auto;
       background: linear-gradient(
         to top,
         rgba(255, 255, 255, 1),
         rgba(235, 235, 235, 0.6)
       );
-      height: 55%;
+      height: 70%;
       width: 70%;
       max-width: 320px;
       padding: 20px 8px 0px 8px;
@@ -105,6 +114,7 @@
       @include custom(500) {
         padding: 26px 20px 10px 20px;
         width: 65%;
+        height: 55%;
       }
 
       @include sm {
@@ -112,7 +122,6 @@
       }
 
       @include md {
-        margin: 25% auto;
         height: 50%;
       }
 
@@ -122,12 +131,12 @@
         grid-template-rows: 10% 20% auto 10%;
 
         @include custom(500) {
-          grid-template-rows: 10% 30% auto 10%;
+          grid-template-rows: 10% 20% auto 10%;
         }
 
         .info--subtitle,
         .info--blurb {
-          font-size: 0.4em;
+          font-size: 0.5em;
           line-height: 1.5em;
 
           // overflow: scroll;
@@ -147,7 +156,7 @@
           }
 
           @include lg {
-            font-size: 0.9em;
+            font-size: 0.8em;
             line-height: 1.7em;
           }
         }
@@ -173,7 +182,7 @@
           }
 
           @include lg {
-            font-size: 2em;
+            font-size: 1.6em;
             line-height: 36px;
           }
         }

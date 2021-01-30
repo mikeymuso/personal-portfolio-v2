@@ -4,9 +4,8 @@ import Slider from './Slider';
 const Websites = () => {
   const [current, setCurrent] = useState(0);
 
-  // TODO: Add links to these sites for github & live site
-  // TODO: Improve blurb with STACK details - careful of text doesn't overflow box (SCSS)
   const images = [
+    // When adding new apps - watch the length of 'title' does not overflow container - 16 characters-ish!
     {
       img: './images/jddance-screenshot.png',
       alt: 'JD Dance',
@@ -22,7 +21,7 @@ const Websites = () => {
       img: './images/pcotton-screenshot.png',
       alt: 'JD Dance',
       subtitle: `- Get snappy`,
-      title: 'P Cotton Photography',
+      title: 'Photography Site',
       blurb:
         'An online gallery and selling portal for purchasing prints online. This app implements the PayPal API for handling payment details and creating orders',
       tech: '> React, Sass',
