@@ -1,26 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 
 const ProjectCard = props => {
-  const [active, setActive] = useState(false);
-  const card = useRef();
-
-  useEffect(() => {
-    const handleMouseOver = () => {
-      console.log('hovering');
-      setActive(true);
-    };
-
-    const currCard = card.current;
-
-    currCard.addEventListener('mouseover', handleMouseOver);
-
-    return () => {
-      currCard.addEventListener('mouseover', handleMouseOver);
-    };
-  }, []);
-
   return (
-    <div ref={card} className={`project-card ${props.className}`}>
+    <div className={`project-card ${props.className}`}>
       <div className="card-subheader">{props.subHeader}</div>
       <div className="card-header">{props.header}</div>
       <div className="svg-container">
