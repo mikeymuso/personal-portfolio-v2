@@ -1253,6 +1253,7 @@
           appearance: none;
   border: 2px solid #52b64e;
   border-radius: 3px;
+  background-color: white;
   font-weight: 600;
 }
 
