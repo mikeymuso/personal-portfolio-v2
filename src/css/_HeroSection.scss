@@ -161,8 +161,14 @@
   background: url('../images/arrow-up.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
 
   cursor: pointer;
-  // z-index: 9;
+  z-index: 99;
+
+  @include sm {
+    left: 48%;
+    height: 50px;
+    width: 50px;
+  }
 }

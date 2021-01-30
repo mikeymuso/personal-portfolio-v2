@@ -24,8 +24,13 @@ const App = () => {
       duration: 800,
       delay: 50,
       smooth: true,
-      offset: 0, // Scrolls to element + 50 pixels down the page
+      offset: 0,
     });
+  };
+
+  const onFormSubmit = event => {
+    event.preventDefault();
+    window.alert('Your message has been sent. Thanks');
   };
 
   return (
