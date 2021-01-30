@@ -42,7 +42,7 @@ const Contact = props => {
     <section className="contact-section">
       <div className="main-grid">
         <div className="form-container">
-          <form name="contact" onSubmit={onFormSubmit}>
+          <form onSubmit={onFormSubmit}>
             <label>name</label>
             <input
               name="name"
