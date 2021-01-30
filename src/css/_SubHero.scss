@@ -17,9 +17,17 @@
       display: flex;
       align-items: center;
       color: white;
-      padding-left: 45px;
       z-index: 2;
       cursor: pointer;
+
+      .inner-cell {
+        width: 70%;
+        margin: 0 auto;
+
+        @include sm {
+          margin: 0;
+        }
+      }
 
       @include sm {
         padding-left: 60px;

@@ -9,7 +9,7 @@ const SubHero = props => {
           data-link="portfolio"
           onClick={props.handleClick}
         >
-          <div>
+          <div className="inner-cell">
             <div className="subtitle">- check out my</div>
             <div
               className="header"
@@ -26,7 +26,7 @@ const SubHero = props => {
           data-link="projects"
           onClick={props.handleClick}
         >
-          <div>
+          <div className="inner-cell">
             <div className="subtitle">- see my skills</div>
             <div
               className="header"

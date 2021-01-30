@@ -1,8 +1,8 @@
 .website-section {
   position: relative;
   width: 100vw;
-  height: 190px;
-  max-height: 770px;
+  // height: 190px;
+  // max-height: 770px;
 
   .header {
     font-family: $header-font;
@@ -100,6 +100,7 @@
       padding: 20px 8px 0px 8px;
       font-family: $body-font;
       font-size: 100%;
+      overflow: scroll;
 
       box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
       transition: 0.1s;

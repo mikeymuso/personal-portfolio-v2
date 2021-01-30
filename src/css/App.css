@@ -2,8 +2,6 @@
 .website-section {
   position: relative;
   width: 100vw;
-  height: 190px;
-  max-height: 770px;
 }
 
 .website-section .header {
@@ -124,6 +122,7 @@
   padding: 20px 8px 0px 8px;
   font-family: "Poppins", sans-serif;
   font-size: 100%;
+  overflow: scroll;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.1s;
@@ -548,9 +547,21 @@
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  padding-left: 45px;
   z-index: 2;
   cursor: pointer;
+}
+
+.sub-hero .sub-hero-grid .left-cell .inner-cell,
+.sub-hero .sub-hero-grid .right-cell .inner-cell {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .sub-hero .sub-hero-grid .left-cell .inner-cell,
+  .sub-hero .sub-hero-grid .right-cell .inner-cell {
+    margin: 0;
+  }
 }
 
 @media (min-width: 576px) {
@@ -1001,14 +1012,17 @@
   font-family: "Exo", sans-serif;
   font-weight: bold;
   display: block;
+  overflow: auto;
   width: 100%;
   background-color: #f8f0ed;
   padding-bottom: 30px;
+  margin-top: 120px;
 }
 
 @media (min-width: 500px) {
   .small-project-section {
     padding-bottom: 30px;
+    margin-top: 60px;
   }
 }
 
