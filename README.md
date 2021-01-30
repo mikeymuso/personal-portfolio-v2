@@ -10,8 +10,8 @@ I will be constantly adding and updating this project to reflect my ongoing prog
 
 ## Project Screen Shots
 
-![home page](https://github.com/mikeymuso/personal-portfolio-v2/tree/master/public/images/portfolio-home.png)
-![skills page](https://github.com/mikeymuso/personal-portfolio-v2/tree/master/public/images/portfolio-skills.png)
+![home page](https://github.com/mikeymuso/personal-portfolio-v2/blob/master/public/images/portfolio-home.png)
+![skills page](https://github.com/mikeymuso/personal-portfolio-v2/blob/master/public/images/portfolio-skills.png)
 
 ## Installation and Setup Instructions
 
