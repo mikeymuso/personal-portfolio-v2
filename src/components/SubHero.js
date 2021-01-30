@@ -16,7 +16,7 @@ const SubHero = props => {
               data-link="portfolio"
               onClick={props.handleClick}
             >
-              WEBSITES
+              FULL-STACK APPS
             </div>
           </div>
         </div>

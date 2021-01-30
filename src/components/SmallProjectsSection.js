@@ -7,6 +7,7 @@ const SmallProjectSection = () => {
       <div className="main-grid">
         <div className="header">SMALL PROJECTS</div>
         <div className="inner-grid">
+          {/* TODO: add links to all of these for github and live site */}
           <ProjectCard
             className="one"
             header="JS Drum Machine"

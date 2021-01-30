@@ -4,6 +4,8 @@ import Slider from './Slider';
 const Websites = () => {
   const [current, setCurrent] = useState(0);
 
+  // TODO: Add links to these sites for github & live site
+  // TODO: Improve blurb with STACK details - careful of text doesn't overflow box (SCSS)
   const images = [
     {
       img: './images/jddance-screenshot.png',
