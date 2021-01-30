@@ -1,8 +1,6 @@
 .website-section {
   position: relative;
   width: 100vw;
-  // height: 190px;
-  // max-height: 770px;
 
   .header {
     font-family: $header-font;
@@ -121,7 +119,11 @@
       .info--inner {
         display: grid;
         height: 95%;
-        grid-template-rows: 10% 30% auto 10%;
+        grid-template-rows: 10% 20% auto 10%;
+
+        @include custom(500) {
+          grid-template-rows: 10% 30% auto 10%;
+        }
 
         .info--subtitle,
         .info--blurb {
@@ -143,19 +145,19 @@
           }
 
           @include lg {
-            font-size: 0.8em;
-            line-height: 1.8em;
+            font-size: 0.9em;
+            line-height: 1.7em;
           }
         }
 
         .info--title {
           font-weight: bold;
           line-height: 14px;
-          font-size: 0.7em;
+          font-size: 0.6em;
 
           @include custom(500) {
             font-size: 0.9em;
-            line-height: 16px;
+            line-height: 18px;
           }
 
           @include sm {
@@ -169,18 +171,18 @@
           }
 
           @include lg {
-            font-size: 1.6em;
-            line-height: 32px;
+            font-size: 2em;
+            line-height: 36px;
           }
         }
 
         .info--tech {
           font-weight: bold;
-          font-size: 0.4rem;
+          font-size: 0.3rem;
           align-self: end;
 
           @include custom(500) {
-            font-size: 0.4em;
+            font-size: 0.5em;
           }
 
           @include sm {
@@ -188,7 +190,7 @@
           }
 
           @include md {
-            font-size: 0.7em;
+            font-size: 0.9em;
           }
         }
       }

@@ -152,8 +152,15 @@
   display: -ms-grid;
   display: grid;
   height: 95%;
-  -ms-grid-rows: 10% 30% auto 10%;
-      grid-template-rows: 10% 30% auto 10%;
+  -ms-grid-rows: 10% 20% auto 10%;
+      grid-template-rows: 10% 20% auto 10%;
+}
+
+@media (min-width: 500px) {
+  .website-section .inner .info .info--inner {
+    -ms-grid-rows: 10% 30% auto 10%;
+        grid-template-rows: 10% 30% auto 10%;
+  }
 }
 
 .website-section .inner .info .info--inner .info--subtitle,
@@ -188,21 +195,21 @@
 @media (min-width: 992px) {
   .website-section .inner .info .info--inner .info--subtitle,
   .website-section .inner .info .info--inner .info--blurb {
-    font-size: 0.8em;
-    line-height: 1.8em;
+    font-size: 0.9em;
+    line-height: 1.7em;
   }
 }
 
 .website-section .inner .info .info--inner .info--title {
   font-weight: bold;
   line-height: 14px;
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
 @media (min-width: 500px) {
   .website-section .inner .info .info--inner .info--title {
     font-size: 0.9em;
-    line-height: 16px;
+    line-height: 18px;
   }
 }
 
@@ -222,14 +229,14 @@
 
 @media (min-width: 992px) {
   .website-section .inner .info .info--inner .info--title {
-    font-size: 1.6em;
-    line-height: 32px;
+    font-size: 2em;
+    line-height: 36px;
   }
 }
 
 .website-section .inner .info .info--inner .info--tech {
   font-weight: bold;
-  font-size: 0.4rem;
+  font-size: 0.3rem;
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
@@ -237,7 +244,7 @@
 
 @media (min-width: 500px) {
   .website-section .inner .info .info--inner .info--tech {
-    font-size: 0.4em;
+    font-size: 0.5em;
   }
 }
 
@@ -249,7 +256,7 @@
 
 @media (min-width: 768px) {
   .website-section .inner .info .info--inner .info--tech {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 }
 

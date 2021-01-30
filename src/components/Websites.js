@@ -11,7 +11,7 @@ const Websites = () => {
       img: './images/jddance-screenshot.png',
       alt: 'JD Dance',
       subtitle: `- Let's dance`,
-      title: 'JD Dance Custom Website',
+      title: 'JD Dance Website',
       blurb:
         'This full-stack app uses MongoDB to create a class booking system for users. Users can sign in and sign up for classes and the teachers can access this info.',
       tech: '> React, MongoDB, Node, Sass',
