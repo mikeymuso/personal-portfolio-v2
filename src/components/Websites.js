@@ -27,7 +27,7 @@ const Websites = () => {
 
   return (
     <section className="website-section">
-      <div className="header">WEBSITES</div>
+      <div className="header">FULL-STACK APPS</div>
       <div className="content">
         <Slider onChange={setCurrent} />
         <div className="inner">
