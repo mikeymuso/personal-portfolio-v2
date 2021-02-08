@@ -4,7 +4,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 const Slider = ({ onChange }) => {
   const images = [
-    { img: './images/jddance-bkgd-img.png', alt: 'dance class' },
+    { img: './images/blog-bkgd-img.png', alt: 'blog website' },
     { img: './images/pcotton-bkgd-img.png', alt: 'landscape photography' },
   ];
 
