@@ -28,6 +28,17 @@ const Websites = () => {
       github: 'https://github.com/mikeymuso/pcotton-photography-react',
       live: 'https://github.com/mikeymuso/pcotton-photography-react',
     },
+    {
+      img: './images/blogging-site.png',
+      alt: 'MERN Blog Website',
+      subtitle: `- Spit it out`,
+      title: 'MERN Blogging Site',
+      blurb:
+        'A blogging website created with React, Express, MongoDB & NodeJS with a CMS',
+      tech: '> MERN, React, MongoDB, NodeJS, Express',
+      github: 'https://github.com/mikeymuso/blogging-site',
+      live: 'https://mike-cotton-blog-site.herokuapp.com/',
+    },
   ];
 
   return (
