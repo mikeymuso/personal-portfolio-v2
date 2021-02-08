@@ -6,17 +6,17 @@ const Websites = () => {
 
   const images = [
     // When adding new apps - watch the length of 'title' does not overflow container - 16 characters-ish!
-    {
-      img: './images/jddance-screenshot.png',
-      alt: 'JD Dance',
-      subtitle: `- Let's dance`,
-      title: 'JD Dance Website',
-      blurb:
-        'This full-stack app uses MongoDB to create a class booking system for users. Users can sign in and sign up for classes and the teachers can access this info.',
-      tech: '> React, MongoDB, Node, Sass',
-      github: '#',
-      live: '#',
-    },
+    // {
+    //   img: './images/jddance-screenshot.png',
+    //   alt: 'JD Dance',
+    //   subtitle: `- Let's dance`,
+    //   title: 'JD Dance Website',
+    //   blurb:
+    //     'This full-stack app uses MongoDB to create a class booking system for users. Users can sign in and sign up for classes and the teachers can access this info.',
+    //   tech: '> React, MongoDB, Node, Sass',
+    //   github: '#',
+    //   live: '#',
+    // },
     {
       img: './images/pcotton-screenshot.png',
       alt: 'JD Dance',
@@ -26,7 +26,7 @@ const Websites = () => {
         'An online gallery and selling portal for purchasing prints online. This app implements the PayPal API for handling payment details and creating orders',
       tech: '> React, Sass',
       github: 'https://github.com/mikeymuso/pcotton-photography-react',
-      live: 'https://github.com/mikeymuso/pcotton-photography-react',
+      live: 'https://paul-cotton-photography.netlify.app/',
     },
     {
       img: './images/blogging-site.png',
