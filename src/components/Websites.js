@@ -18,17 +18,6 @@ const Websites = () => {
     //   live: '#',
     // },
     {
-      img: './images/pcotton-screenshot.png',
-      alt: 'JD Dance',
-      subtitle: `- Get snappy`,
-      title: 'Photography Site',
-      blurb:
-        'An online gallery and selling portal for purchasing prints online. This app implements the PayPal API for handling payment details and creating orders',
-      tech: '> React, Sass',
-      github: 'https://github.com/mikeymuso/pcotton-photography-react',
-      live: 'https://paul-cotton-photography.netlify.app/',
-    },
-    {
       img: './images/blogging-site.png',
       alt: 'MERN Blog Website',
       subtitle: `- Spit it out`,
@@ -38,6 +27,18 @@ const Websites = () => {
       tech: '> MERN, React, MongoDB, NodeJS, Express',
       github: 'https://github.com/mikeymuso/blogging-site',
       live: 'https://mike-cotton-blog-site.herokuapp.com/',
+    },
+
+    {
+      img: './images/pcotton-screenshot.png',
+      alt: 'JD Dance',
+      subtitle: `- Get snappy`,
+      title: 'Photography Site',
+      blurb:
+        'An online gallery and selling portal for purchasing prints online. This app implements the PayPal API for handling payment details and creating orders',
+      tech: '> React, Sass',
+      github: 'https://github.com/mikeymuso/pcotton-photography-react',
+      live: 'https://paul-cotton-photography.netlify.app/',
     },
   ];
 
